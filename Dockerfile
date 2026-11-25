@@ -21,6 +21,7 @@ WORKDIR /app
 ENV NODE_ENV=production
 ENV PORT=3000
 ENV HOSTNAME=0.0.0.0
+ENV DATABASE_URL=file:/app/data/bk-media-house.db
 
 RUN apt-get update && apt-get install -y --no-install-recommends openssl ca-certificates libstdc++6 && rm -rf /var/lib/apt/lists/*
 
