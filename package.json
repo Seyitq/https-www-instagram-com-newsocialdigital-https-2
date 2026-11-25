@@ -1,0 +1,45 @@
+{
+  "name": "bk-media-house",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "predev": "prisma generate",
+    "dev": "next dev",
+    "prebuild": "prisma generate",
+    "build": "next build",
+    "start": "next start",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:seed": "prisma db seed",
+    "db:setup": "prisma migrate dev --name init && prisma db seed",
+    "admin:setup": "node scripts/setup-admin.mjs",
+    "docker:build": "docker compose build",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down"
+  },
+  "dependencies": {
+    "@prisma/adapter-better-sqlite3": "7.10.1",
+    "@prisma/client": "7.10.1",
+    "bcryptjs": "3.0.3",
+    "better-sqlite3": "13.2.0",
+    "lucide-react": "1.73.0",
+    "next": "16.4.6",
+    "next-auth": "5.0.0-beta.32",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.5",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "caniuse-lite": "^1.0.30001828",
+    "dotenv": "^16.4.7",
+    "prisma": "7.10.1",
+    "tailwindcss": "4.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "5.9.3"
+  }
+}

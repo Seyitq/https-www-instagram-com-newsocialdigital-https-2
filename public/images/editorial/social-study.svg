@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1000" viewBox="0 0 1200 1000">
+  <rect width="1200" height="1000" fill="#e6ebe8"/>
+  <rect x="160" y="150" width="510" height="680" rx="8" fill="#cdd6d0"/>
+  <rect x="180" y="130" width="510" height="680" rx="8" fill="#f8f9f5"/>
+  <text x="225" y="190" font-family="Arial,sans-serif" font-size="16" fill="#68746a">NEW SOCIAL / KONSEPT ÇALIŞMA</text>
+  <text x="225" y="315" font-family="Arial,sans-serif" font-weight="700" font-size="72" letter-spacing="-4" fill="#344d40">Yeni bir</text>
+  <text x="225" y="400" font-family="Arial,sans-serif" font-weight="700" font-size="72" letter-spacing="-4" fill="#344d40">bakış açısı.</text>
+  <rect x="225" y="455" width="420" height="270" fill="#adbda9"/>
+  <path d="M225 660L365 510L510 660L575 585L645 665V725H225Z" fill="#718772"/>
+  <text x="225" y="770" font-family="Arial,sans-serif" font-size="15" fill="#68746a">İÇERİK / TASARIM / İLETİŞİM</text>
+  <rect x="735" y="300" width="290" height="440" rx="8" fill="#cdd6d0"/>
+  <rect x="720" y="285" width="290" height="440" rx="8" fill="#344d40"/>
+  <text x="750" y="335" font-family="Arial,sans-serif" font-size="12" fill="#dce5d9">GÖRSEL TASLAK</text>
+  <text x="750" y="425" font-family="Arial,sans-serif" font-size="41" font-weight="700" letter-spacing="-2" fill="#f8f9f5">Hikâyeni</text>
+  <text x="750" y="478" font-family="Arial,sans-serif" font-size="41" font-weight="700" letter-spacing="-2" fill="#f8f9f5">paylaş.</text>
+  <path d="M750 565H975M750 585H940M750 605H960" stroke="#8fa790" stroke-width="5"/>
+  <rect x="750" y="650" width="110" height="25" rx="3" fill="#dce5d9"/>
+</svg>

@@ -1,0 +1,19 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env.production
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: file:/app/data/bk-media-house.db
+      AUTH_URL: ${AUTH_URL:-https://bkmediahouse.com.tr}
+    volumes:
+      - bk-media-house-data:/app/data
+
+volumes:
+  bk-media-house-data:

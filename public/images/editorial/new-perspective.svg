@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1600" fill="none">
+  <rect width="1400" height="1600" fill="#EC6325"/>
+  <path d="M-180 1540 1570-210M-80 1640 1670-110M20 1740 1770-10M120 1840 1870 90" stroke="#F5EBDA" stroke-width="24"/>
+  <circle cx="700" cy="790" r="474" fill="#181716"/>
+  <circle cx="700" cy="790" r="355" stroke="#EC6325" stroke-width="2"/>
+  <circle cx="700" cy="790" r="215" fill="#EC6325"/>
+  <path d="m603 790 97-97 97 97-97 97-97-97Z" fill="#181716"/>
+  <path d="M603 790h194M700 693v194" stroke="#F5EBDA" stroke-width="2"/>
+  <g fill="#181716" font-family="Arial, sans-serif" font-weight="700">
+    <text x="75" y="128" font-size="38" letter-spacing="6">NEW SOCIAL</text>
+    <text x="1325" y="128" font-size="25" text-anchor="end" letter-spacing="2">CREATIVE EXPLORATION</text>
+    <text x="75" y="1490" font-size="88" letter-spacing="-4">YENİ BİR BAKIŞ.</text>
+    <text x="1325" y="1545" font-size="22" text-anchor="end" letter-spacing="4">KONSEPT / DİJİTAL İÇERİK</text>
+  </g>
+</svg>
