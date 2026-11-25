@@ -4,6 +4,8 @@ import { redirect } from "next/navigation";
 import { auth, signOut } from "@/auth";
 import { AdminNav } from "@/components/features/admin/admin-nav";
 
+export const dynamic = "force-dynamic";
+
 export default async function AdminWorkspaceLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const session = await auth();
   if (!session?.user) redirect("/admin/login");

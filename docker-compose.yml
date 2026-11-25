@@ -11,7 +11,6 @@ services:
     environment:
       NODE_ENV: production
       DATABASE_URL: file:/app/data/bk-media-house.db
-      AUTH_URL: ${AUTH_URL:-https://bkmediahouse.com.tr}
     volumes:
       - bk-media-house-data:/app/data
 

@@ -6,8 +6,14 @@ RUN npm ci
 
 FROM deps AS builder
 WORKDIR /app
+ENV DATABASE_URL=file:/app/prisma/build.db
+ENV AUTH_SECRET=build-only-secret-that-is-at-least-32-characters
+ENV AUTH_URL=http://localhost:3000
 COPY . .
 RUN npx prisma generate
+RUN mkdir -p /app/prisma
+RUN npx prisma migrate deploy
+RUN npx prisma db seed
 RUN npm run build
 
 FROM node:22-bookworm-slim AS runner
